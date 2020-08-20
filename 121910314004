@@ -1,0 +1,50 @@
+# This program reads two numbers and prints their sum:
+a = input('enter first number:')
+b = input('enter second number:')
+
+sum = float(a) + float(b)
+
+print('the sum of {} and {} is {}'.format(a,b,sum))
+# Can you change it so it can read and sum three numbers?
+
+Output:
+enter first number:4
+enter second number:6
+the sum of 4 and 6 is 10
+
+import math
+
+width = float(input('Please Enter the Width of a Right Angled Triangle: '))
+height = float(input('Please Enter the Height of a Right Angled Triangle: '))
+
+# calculate the area
+Area = 0.5 * width * height
+
+print("\n Area of a right angled triangle is: %.2f" %Area)
+
+output:
+Please Enter the Width of a Right Angled Triangle:  3
+Please Enter the Height of a Right Angled Triangle:  5
+
+ Area of a right angled triangle is: 7.50
+ 
+ # Read a string:
+a = input('hello, harry!')
+# Print a string:
+print(a)
+
+output:
+hello, harry! 
+
+# Read an integer:
+a = input('enter the number:')
+# Print a value:
+print(a)
+print('the next number for the '+str(a)+' is '+str(a+1))
+print('the previous number for the number '+str(a)+' is '+str(a-1))
+
+output:
+enter tne number:0
+0
+the next number for the 0 is 1
+the previous number for the number 0 is -1
